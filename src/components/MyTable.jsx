@@ -1,7 +1,7 @@
 import React from "react";
 import './MyTable.css';
 
-function ProductTable(props) {
+function MyTable(props) {
     const { docs } = props;
     const [sortConfig, setSortConfig] = React.useState(null);
 
@@ -77,4 +77,4 @@ function ProductTable(props) {
     );
   }
 
-  export default ProductTable;
+  export default MyTable;

@@ -1,5 +1,5 @@
 import './App.css';
-import ProductTable from './components/MyTable';
+import MyTable from './components/MyTable';
 
 function App() {
 
@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div className="App">
-      <ProductTable docs={data}/>
+      <MyTable docs={data}/>
     </div>
   );
 }
